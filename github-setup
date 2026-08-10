@@ -1,0 +1,3 @@
+brew install gh
+gh auth login
+gh auth status
