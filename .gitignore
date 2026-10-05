@@ -53,3 +53,29 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build output directories
+/C/output/
+build/
+bin/
+obj/
+Debug/
+Release/
+CMakeFiles/
+
+# Generated build files
+CMakeCache.txt
+cmake_install.cmake
+
+# Temporary and operating system files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# VS Code workspace configuration
+/.vscode/c_cpp_properties.json
+/.vscode/launch.json
+/.vscode/settings.json
+/C/.vscode/
